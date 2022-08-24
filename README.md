@@ -31,4 +31,5 @@ C routine that lets you print multiple values like:
 
 ```c++
  spt(T_CHAR, 'H', T_CHARP, "ello world", T_END);
+ /* Make sure to end list with T_END !!  ^^^^^ */
 ```
