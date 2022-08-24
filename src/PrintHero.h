@@ -17,10 +17,10 @@
 	#endif
 #else
 	#define sp(a)  (std::cout << (a))
-	#define spl(a) (std::cout << (a) << "\n")
+	#define spl(a) (std::cout << (a) << std::endl)
 	#ifdef DEBUG_PRINT
 		#define dbsp(a)  (std::cout << (a))
-		#define dbspl(a) (std::cout << (a) << "\n")
+		#define dbspl(a) (std::cout << (a) << std::endl)
 		#define dbprintf(...) printf(__VA_ARGS__)
 	#else // versions that do nothing if no DEBUG_PRINT
 		#define dbsp(a)
