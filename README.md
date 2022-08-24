@@ -15,7 +15,7 @@ Use like:
 
 void fn(void) {
 	sp(whatever);   /* This will Serial.print() with ARDUINO or ESP_PLATFORM
-					   but will std::cout otherwise */
+	                   but will std::cout otherwise */
 	spl(whatever);  /* Serial.println(v) (or cout << v << endl) */
 
 	/* Versions which only output if DEBUG_PRINT is defined.
