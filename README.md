@@ -26,10 +26,10 @@ void fn(void) {
 }
 ```
 
-There's an `spt()` call in here which I've not tested much. It's an actual
+I also wrote an `spt()` function, which I've not tested much. It's a
 C routine that lets you print multiple values like:
 
 ```c++
- spt(T_CHAR, 'H', T_CHARP, "ello world", T_END);
- // Make sure to end list with T_END !!  ^^^^^
+ spt(T_CH, 'H',  T_CHP, "ello world: ",  1, T_INT,  T_END);
+ // Make sure to end list with T_END !!          ^^^^^
 ```
